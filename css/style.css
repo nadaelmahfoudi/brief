@@ -79,7 +79,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #d1e3ff;
+  background-color: #b5b48a;
 }
 
 .header_section .container-fluid {
@@ -90,6 +90,9 @@ a:focus {
 .header_section .header_top {
   padding: 15px 0;
   background-color: #000000;
+}
+.header_section {
+  background-color: #ceced4;
 }
 
 .header_section .header_top .contact_nav {
@@ -665,6 +668,19 @@ a:focus {
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
+.contact_section select {
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  background-color: #ffffff;
+  outline: none;
+  color: #0e0d0d;
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
 
 .contact_section input::-webkit-input-placeholder {
   color: #737272;

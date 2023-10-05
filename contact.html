@@ -65,7 +65,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ">
-                <li class="nav-item active">
+                <li class="nav-item ">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -74,7 +74,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="service.html">Services</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
               </ul>
@@ -106,19 +106,17 @@
               <input type="email" placeholder="Email" >
             </div>
             <div>
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" class="subject-box">
+                <option value="general">General Inquiry</option>
+                <option value="support">Customer Support</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+              </select>
+            </div>  
+            <div>
               <input type="text" class="message-box" placeholder="Message" >
-            </div>
-             <div>
-              <div>
-                <label for="subject">Subject:</label>
-                <select id="subject" name="subject" class="subject-box">
-                  <option value="general">General Inquiry</option>
-                  <option value="support">Customer Support</option>
-                  <option value="feedback">Feedback</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>              
-             </div>            
+            </div>         
             <div class="d-flex ">
               <button>
                 SEND
